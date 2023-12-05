@@ -1,11 +1,5 @@
 <template>
   <div>
-    <div style="margin-button:30px">
-      <el-breadcrumb separator-class="el-icon-arrow-right">
-        <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-        <el-breadcrumb-item>用户管理</el-breadcrumb-item>
-      </el-breadcrumb>
-    </div>
 
     <div style="padding: 10px 0">
       <el-input style="width: 200px;" suffix-icon="el-icon-search" placeholder="请输入名称"
@@ -249,6 +243,4 @@ export default {
   .headerBg {
     background: #42b983;
   }
-
-
 </style>

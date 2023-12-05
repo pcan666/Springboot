@@ -6,6 +6,7 @@
              avive-text-color="#ffd04b"
              :collapse-transition="false"
              :collapse="isCollapse"
+             router
     >
       <div style="height: 60px;line-height: 60px;text-align: center;">
         <img src="../assets/logo.png" style="width: 20px;position: relative;top: 5px;margin-right: 5px"/>
@@ -13,7 +14,7 @@
       </div>
 
 
-      <el-menu-item index="1-1">
+      <el-menu-item index="/">
         <template slot="title"><i class="el-icon-s-home"></i>
           <span slot="title">主页</span>
         </template>
@@ -23,8 +24,8 @@
         <template slot="title"><i class="el-icon-menu"></i>
           <span slot="title">系统管理</span>
         </template>
-        <el-menu-item index="2-1">
-          <template slot="title"><i class="el-icon-s-home"></i>
+        <el-menu-item index="/user">
+          <template slot="title"><i class="el-icon-user-solid"></i>
             <span slot="title">用户管理</span>
           </template>
         </el-menu-item>
